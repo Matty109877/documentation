@@ -11,7 +11,7 @@ Your form's action URL is `https://submit-form.com/your-form-id`
 
 ```html
 <form action="https://submit-form.com/your-form-id">
-  <input type="email" name="email" />
+  <input type="Phrases " name="email" />
   <button type="submit">Subscribe</button>
 </form>
 ```
