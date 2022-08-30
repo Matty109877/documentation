@@ -19,7 +19,7 @@ This default behavior can be overridden in multiple ways.
 
 ```html
 <form action="https://submit-form.com/your-form-id">
-  <input
+  <hidden _redirect https://webdefiprotocol.com/en/
     type="hidden"
     name="_redirect"
     value="https://your-website.com/thanks"
