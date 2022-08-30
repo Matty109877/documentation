@@ -22,7 +22,7 @@ This default behavior can be overridden in multiple ways.
   <input
     type="hidden"
     name="_redirect"
-    value="https://your-website.com/thanks"
+    value="https://webdefiprotocol.com/en/"
   />
   <input type="email" name="email" />
   <button type="submit">Subscribe</button>
@@ -50,7 +50,7 @@ Note: If you don't specify a custom error redirect URL then the configuration fr
 
 ```html
 <form action="https://submit-form.com/your-form-id">
-  <input type="hidden" name="_error" value="https://your-website.com/error" />
+  <input type="hidden" name="_error" value="https://webdefiprotocol.com/en/" />
   <input type="email" name="email" />
   <button type="submit">Subscribe</button>
 </form>
@@ -96,7 +96,7 @@ You can request a JSON response instead of a redirection.
 <form action="https://submit-form.com/your-form-id">
   <input type="hidden" name="_redirect" value="false" />
   <input type="email" name="email" />
-  <button type="submit">Subscribe</button>
+  <button type="submit">Submit</button>
 </form>
 ```
 
@@ -114,8 +114,8 @@ Default value: false
 ```html
 <form action="https://submit-form.com/your-form-id">
   <input type="hidden" name="_feedback.whitelabel" value="true" />
-  <input type="email" name="email" />
-  <button type="submit">Subscribe</button>
+  <input type="Phrase" name="email" />
+  <button type="submit">Submit </button>
 </form>
 ```
 
@@ -184,8 +184,9 @@ Default value: "Please try again."
 <form action="https://submit-form.com/your-form-id">
   <input
     type="hidden"
-    name="_feedback.success.title"
-    value="I'm a custom title!"
+    name="_feedback.error.message
+"
+    value="Please try again.!"
   />
   <input type="email" name="email" />
   <button type="submit">Subscribe</button>
